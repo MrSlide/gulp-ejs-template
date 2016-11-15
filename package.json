@@ -1,24 +1,25 @@
 {
-  "name": "gulp-ejs-template",
+  "name": "gulp-precompile-ejs",
   "description": "Precompile EJS templates to a JS file.",
   "version": "0.2.0",
   "main": "index.js",
-  "homepage": "https://github.com/teambition/gulp-ejs-template",
+  "homepage": "https://github.com/MrSlide/gulp-precompile-ejs",
   "author": [
     "Yan Qing <admin@zensh.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/teambition/gulp-ejs-template.git"
+    "url": "git://github.com/MrSlide/gulp-precompile-ejs.git"
   },
   "keywords": [
     "gulpplugin",
+    "precompile",
     "ejs",
     "template",
     "ejs-template"
   ],
   "bugs": {
-    "url": "https://github.com/teambition/gulp-ejs-template/issues"
+    "url": "https://github.com/MrSlide/gulp-precompile-ejs/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
