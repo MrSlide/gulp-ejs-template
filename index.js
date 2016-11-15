@@ -34,7 +34,7 @@ module.exports = function (options) {
 
     var name = path.relative(file.base, file.path)
     var tpl = new EJS(file.contents.toString('utf8'), options.delimiter)
-    joinedContent += util.format(contentTpl, normalName(name), '/' + normalName(name), tpl.compile())
+    joinedContent += util.format(contentTpl, normalName(name), fullName(name), tpl.compile())
     next()
   }, function () {
     joinedContent = joinedContent.trim().replace(/^/gm, '  ')
